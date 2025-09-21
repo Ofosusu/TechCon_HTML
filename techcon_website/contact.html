@@ -1,41 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="utf-8">
-    <title>Contact TechCon 2024</title>
+    <meta charset="UTF-8">
+    <title>TechCon 2024 - Contact Us</title>
 </head>
 <body>
+    <!-- Header with navigation -->
+    <header>
+        <h1>Contact Us</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="schedule.html">Schedule</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
 
-<header>
-    <h1>Contact TechCon 2024</h1>
-    <nav>
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="about.html">About</a></li>
-            <li><a href="schedule.html">Schedule</a></li>
-            <li><a href="register.html">Register</a></li>
-        </ul>
-    </nav>
-</header>
+    <!-- Main content -->
+    <main>
+        <article>
+            <h2>Get in Touch</h2>
+            <p>If you have questions about TechCon 2024, please fill out the form below or email us directly.</p>
 
-<main>
-    <article>
-        <h2>Get in Touch</h2>
-        <p>Have questions? Contact us via email or social media:</p>
-        <ul>
-            <li>Email: <a href="mailto:info@techcon2024.com">info@techcon2024.com</a></li>
-            <li>Twitter: <a href="https://twitter.com/TechCon2024" target="_blank">@TechCon2024</a></li>
-            <li>LinkedIn: <a href="https://linkedin.com/company/techcon2024" target="_blank">TechCon 2024</a></li>
-        </ul>
-    </article>
-    <aside>
-        <p>placeholder to add comment thread later</p>
-    </aside>
-</main>
+            <!-- Contact form -->
+            <form>
+                <label for="name">Name:</label><br>
+                <input type="text" id="name" name="name" required><br><br>
 
-<footer>
-    <p>Copyright &copy; 2024 TechCon Conference</p>
-</footer>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" value="email@example.com" required><br><br>
 
+                <label for="message">Message:</label><br>
+                <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+                <button type="submit">Send Message</button>
+            </form>
+
+            <!-- Mailto fallback link -->
+            <p>Email us directly at <a href="mailto:email@example.com">email@example.com</a></p>
+
+            <!-- Embedded map or location iframe -->
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!..." width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </article>
+
+        <aside>
+            <p>placeholder to add comment thread later</p>
+        </aside>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>copyright &copy; 2025 TechCon Conference</p>
+    </footer>
 </body>
 </html>
